@@ -7,14 +7,7 @@ public class LicaoCasa23 {
 	public static void main(String[] args) {
 	
 		Scanner scan = new Scanner(System.in);
-		
-		//tipo de carne
-		//qts de carne
-		//preço total
-		//tipo de pagamento
-		//valor do desconto
-		//valor a pagar
-		
+				
 		System.out.println("Qual tipo de carne desejado? F - file duplo, A - alcatra ou P - picanha");
 		String tipo = scan.next();
 		
@@ -60,13 +53,7 @@ public class LicaoCasa23 {
 			System.out.println("O total a pagar é: " + totalPagar);
 		} else {
 			System.out.println("O total a pagar é " + total);
-		
 		}
-		
-		
-		
-		
-		
 	}
 }
 
